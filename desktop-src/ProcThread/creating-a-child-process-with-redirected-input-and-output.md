@@ -35,7 +35,7 @@ HANDLE g_hInputFile = NULL;
 void CreateChildProcess(void); 
 void WriteToPipe(void); 
 void ReadFromPipe(void); 
-void ErrorExit(PTSTR); 
+void ErrorExit(PCTSTR); 
  
 int _tmain(int argc, TCHAR *argv[]) 
 { 
