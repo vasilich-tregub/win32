@@ -212,7 +212,7 @@ void ReadFromPipe(void)
    } 
 } 
  
-void ErrorExit(PTSTR lpszFunction) 
+void ErrorExit(PCTSTR lpszFunction) 
 
 // Format a readable error message, display a message box, 
 // and exit from the application.
